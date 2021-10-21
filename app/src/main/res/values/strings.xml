@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Dice roller</string>
+    <string name="let_s_test_your_luck">Let\'s test your luck</string>
+    <string name="click_me">click me</string>
 </resources>

@@ -3,9 +3,7 @@ package com.example.diceroller.model
 import com.example.diceroller.viewModel.DiceFragmentViewModel
 
 class Repository {
-    private val viewModel = DiceFragmentViewModel()
+    private val generator = NumberGenerator()
 
-    fun generateRandomNumber(){
-        viewModel.generateRandomNumber()
-    }
+    fun generateRandomNumber() = generator.generateRandomNumber()
 }

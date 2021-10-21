@@ -11,7 +11,8 @@ class DiceFragmentViewModel : ViewModel() {
 
     private val generator = NumberGenerator()
 
-    val generatedNumber = MutableLiveData<DiceFace>()
+    private val generatedNumber = MutableLiveData<DiceFace>()
+    val openGeneratedNumber :LiveData<DiceFace> get() = generatedNumber
 
 
     fun generateRandomNumber(){

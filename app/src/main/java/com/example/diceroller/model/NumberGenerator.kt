@@ -13,6 +13,7 @@ class NumberGenerator {
         DiceFace("4", R.drawable.alea_4),
         DiceFace("5", R.drawable.alea_5),
         DiceFace("6", R.drawable.alea_6),
+
     )
 
     fun generateRandomNumber()= diceFace[(0..5).random()]
